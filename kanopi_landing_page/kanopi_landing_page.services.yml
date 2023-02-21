@@ -1,0 +1,5 @@
+services:
+  kanopi_landing_page.page_attachments:
+    class: Drupal\kanopi_landing_page\PageAttachments
+    tags:
+      - { name: page_attachments, priority: 200 }

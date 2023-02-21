@@ -1,0 +1,10 @@
+kanopi_landing_page.front:
+  label: 'Kanopi Landing Page Front'
+  category: 'Kanopi Landing Page'
+  template: 'page__front'
+  regions:
+    header: Header
+    hero: Hero
+    services: Services
+    testimonials: Testimonials
+    footer: Footer
