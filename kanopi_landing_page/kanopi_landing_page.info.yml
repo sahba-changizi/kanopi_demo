@@ -46,31 +46,10 @@ kanopiLandingPage-hero:
     theme:
       css/hero.css: {}
   js:
-    js/hero.js: {}
+    js/script.js: {}
   dependencies:
     - kanopiLandingPage/globalCss
   options:
     css_preprocess: true
     js_preprocess: true
     weight: -99
-
-kanopiLandingPage-hero-background:
-  css:
-    theme:
-      css/hero-background.css: {}
-  dependencies:
-    - kanopiLandingPage/globalCss
-  options:
-    css_preprocess: true
-    weight: -98
-
-# Add this code to load the image as a background image for the hero section
-kanopiLandingPage-hero-background-image:
-  css:
-    theme:
-      css/hero-background-image.css: {}
-  dependencies:
-    - kanopiLandingPage/globalCss
-  options:
-    css_preprocess: true
-    weight: -97
